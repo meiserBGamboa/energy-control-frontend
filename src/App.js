@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import AppRouter from './routes/AppRouter'
-import 'antd/dist/antd.min.css';
+import 'antd/dist/reset.css';
 
 function App() {
   return (
