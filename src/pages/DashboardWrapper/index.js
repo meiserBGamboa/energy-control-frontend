@@ -27,7 +27,8 @@ const DashboardWrapper = () => {
                         }
                     )
                 )
-                console.log(loadData)
+                totalWats = Math.round(totalWats * 1000) / 1000
+
                 setData(loadData)
                 setTotal(totalWats)
                 setLoading(true)

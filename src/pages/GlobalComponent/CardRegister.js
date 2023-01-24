@@ -9,7 +9,7 @@ const CardRegister = ({title, xField, yField, data, total}) => {
     const config = {
       with: 300,
       height: 300,
-      percent: total/10000,
+      percent: total/1000000,
       range: {
         color: '#45B302',
       },
