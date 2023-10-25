@@ -5,6 +5,7 @@ import * as route from '../utils/Routes'
 
 import DashboardWrapper from '../pages/DashboardWrapper'
 import Page404 from "../pages/Page404"
+import LoveDash from "../pages/Love"
 
 const AppRouter = () =>{
   
@@ -15,6 +16,7 @@ const AppRouter = () =>{
             <Route exact path={route.dashboard} element={<DashboardWrapper />} />
             <Route path="*" element={<Page404 /> } />
           </Route>
+          <Route exact path={route.love} element={<LoveDash />} />
         </Routes>
       </BrowserRouter>
     )
